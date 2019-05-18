@@ -1,7 +1,7 @@
 # ros_dualshock
 Hello my fellas this is an opensource library to controle ROS Turtlesim-node with Playstation 4 Dualshock Controller via Bluetooth. 
 
-INSTALATION 
+INSTALLATION 
 ----------------
 pip install pygame rospy
 
