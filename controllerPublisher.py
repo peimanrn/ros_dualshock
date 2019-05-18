@@ -83,7 +83,7 @@ class PS4Controller(object):
         # rate = rospy.Rate(10)
         
         # while not rospy.is_shutdown():
-        if direc != 0and speed != 0 :
+        if direc != 0 and speed != 0 :
             print('horiz:',direc,'verti',speed)
             vel_msg.linear.x = -10*speed
             vel_msg.linear.y = 0
