@@ -8,4 +8,5 @@ pip install pygame rospy
 RUN
 ----------------
 rosrun turtlesim turtlesim_node
+
 python controllerPublisher.py
